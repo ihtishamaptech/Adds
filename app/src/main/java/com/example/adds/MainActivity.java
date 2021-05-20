@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         MobileAds.initialize(this);
         mAdView = findViewById(R.id.adView);
+        Toast.makeText(this, "Test", Toast.LENGTH_SHORT).show();
         mRewardedAd = new RewardedAd() {
             @Override
             public void setServerSideVerificationOptions(@Nullable ServerSideVerificationOptions serverSideVerificationOptions) {
