@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     AdView mAdView;
     RewardedAd mRewardedAd;
     private InterstitialAd mInterstitialAd;
+    String s;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
